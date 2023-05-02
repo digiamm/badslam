@@ -298,6 +298,11 @@ Using the "einstein" dataset as an example, you could run
 $ ./applications/badslam/badslam /datasets/einstein_1 --export_reconstruction einstein.ply && meshlab einstein.ply
 ```
 
+Run with some important params for experiments 
+```
+./applications/badslam/badslam /datasets/table_3/ --export_final_timings "final_timings.txt" --save_timings "saved_final_timings.txt"
+```
+
 Note: if you observe something like:
 
 ```
